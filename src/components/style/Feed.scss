@@ -1,0 +1,76 @@
+// // .buttonPres {
+// //   background-color: white;
+// //   margin: 10px;
+// //   border: solide;
+// //   border-radius: black;
+// //   padding: 5px;
+// //   border-radius: 50%;
+// //   width: 60px;
+// //   height: 60px;
+// //   font-weight: bold;
+// // }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+.containerFeed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f2efec;
+  height: 100%;
+  padding: 3%;
+}
+.basic-multi-select {
+  width: 90vw;
+  .css-yk16xz-control {
+    border-radius: 50px;
+  }
+}
+
+.filterContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: scroll;
+  position: relative;
+  width: 90vw;
+  height: 10vh;
+}
+
+.filterButton {
+  font-family: 'Montserrat', sans-serif;
+  width: 40vw;
+  background-color: white;
+  color: #082852;
+  &:focus {
+    border: 2px solid #082852;
+  }
+  &:active {
+    border: 2px solid #082852;
+  }
+}
+
+.articleListContainer {
+  border-radius: 20px;
+  width: 90vw;
+  padding-bottom: 25%;
+}
+
+.articlesRow {
+  background-color: white;
+  border-radius: 20px;
+  width: 90vw;
+  margin-bottom: 3%;
+}
+
+.imgArticle {
+  border-radius: 20px 20px 0px 0px;
+  width: 90vw;
+}
+
+.text {
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  padding: 5%;
+  font-family: 'Montserrat', sans-serif;
+}

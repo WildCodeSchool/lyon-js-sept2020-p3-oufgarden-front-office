@@ -1,0 +1,94 @@
+.containerLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #dfdddb;
+  width: 100vw;
+  height: 100vh;
+}
+.logo {
+  background-image: url('../../images/black_logo.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 40%;
+  padding: 10%;
+}
+
+.boxLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-control {
+  margin: 5px;
+  background-color: white;
+  border: unset;
+  border-radius: 50px;
+  padding: 8px;
+  width: 70vw;
+  outline: none;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  margin: 5px;
+  background-color: #28841f;
+  border: unset;
+  border-radius: 50px;
+  padding: 8px;
+  width: 40vw;
+  outline: none;
+  color: white;
+}
+.infoCreation {
+  margin: 10px;
+  width: 70vw;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #292929;
+}
+
+.invalid-feedback {
+  display: block !important;
+  color: red;
+  font-size: 12px;
+}
+
+.stay-connected-container {
+  display: flex;
+  justify-content: center;
+
+  .stay-connected {
+    font-size: 15px;
+
+    #stayConnected {
+      margin: 20px;
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 80%;
+  }
+}
